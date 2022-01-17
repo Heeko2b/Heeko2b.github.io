@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link href="style.css" rel="stylesheet" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">Jacques Battaglini</a>
+      <div class="header-right">
+        <a class="active" href="#h">Accueil</a>
+        <a href="#c">Créations</a>
+        <a href="#about">Contact</a>
+      </div>
+    </div>
+
+    <div class="container pres">
+      <div class="presentation" id="h">
+        <img src="image.png" />
+        <div class="prestext">
+          Salut, je m’appelle Jacques, et je suis étudiant en MMI à Corte. Je
+          suis passionné de tout ce qui touche a internet : youtube, twitch
+          entre autres, et aussi de jeux vidéos (oui je suis très original) A
+          l’issue de mon BUT, j’aimerais travailler dans le web ou en tant que
+          Community manager, je me laisse les 3 prochaines années d’études pour
+          me décider sur le sujet
+        </div>
+      </div>
+    </div>
+
+    <div class="container pres projet-container">
+      <ul id="c">
+        <li>
+          <img src="Affiche.png" alt="affiche" />
+          <p>Affiche pour le carnaval de Brando</p>
+        </li>
+        <li>
+          <img src="Pins.png" alt="affiche de parfum" />
+          <p>Sticker pour le carnaval de Brando</p>
+        </li>
+        <li>
+          <img src="Taxi.png" alt="" />
+          <p>Réplique d'affiche du film Taxi 2</p>
+        </li>
+        <li>
+          <img src="Lejourdaprès.png" alt="" />
+          <p>Réplique d'affiche du film Le jour d'après</p>
+        </li>
+        <li>
+          <img src="Butta.jpg" alt="" />
+          <p>Affiche pour un parfum</p>
+        </li>
+        <li>
+          <img src="Rhino.png" alt="" />
+          <p></p>
+        </li>
+      </ul>
+    </div>
+    <div class="pres">
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/6LYAZw78_d8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="bas">
+      <div class="pres cadre" id="about">
+        <form>
+          <br />
+          <h3 style="color: white;">Me contacter</h3>
+          <input placeholder="Nom" type="text" id="name" name="user_name" />
+          <input
+            placeholder="Prenom"
+            type="text"
+            id="name"
+            name="user_firstname"
+          />
+          <input
+            placeholder="Votre email"
+            type="email"
+            id="mail"
+            name="user_mail"
+          />
+          <input
+            placeholder="Password"
+            type="password"
+            id="password"
+            name="password"
+          />
+
+          <input type="submit" />
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
