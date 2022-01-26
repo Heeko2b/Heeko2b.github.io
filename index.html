@@ -16,96 +16,100 @@
   </head>
 
   <body>
-    <div class="header">
-      <a href="#default" class="logo">Jacques Battaglini</a>
-      <div class="header-right">
-        <a class="active" href="#h">Accueil</a>
-        <a href="#c">Créations</a>
-        <a href="#about">Contact</a>
-      </div>
-    </div>
+    <main>
+      <section class="header">
+        <a href="#default" class="logo">Jacques Battaglini</a>
+        <section class="header-right">
+          <a class="active" href="#h">Accueil</a>
+          <a href="#c">Créations</a>
+          <a href="#about">Contact</a>
+        </section>
+      </section>
 
-    <div class="container pres" id="h">
-      <div class="presentation">
-        <img src="image.png" alt="photo de profil" />
-        <div class="prestext">
-          Salut, je m’appelle Jacques, et je suis étudiant en MMI à Corte. Je
-          suis passionné de tout ce qui touche a internet : youtube, twitch
-          entre autres, et aussi de jeux vidéos (oui je suis très original) A
-          l’issue de mon BUT, j’aimerais travailler dans le web ou en tant que
-          Community manager, je me laisse les 3 prochaines années d’études pour
-          me décider sur le sujet
-        </div>
-      </div>
-    </div>
+      <section class="container pres" id="h">
+        <section class="presentation">
+          <img src="image.png" alt="photo de profil" />
+          <section class="prestext">
+            Salut, je m’appelle Jacques, et je suis étudiant en MMI à Corte. Je
+            suis passionné de tout ce qui touche a internet : youtube, twitch
+            entre autres, et aussi de jeux vidéos (oui je suis très original) A
+            l’issue de mon BUT, j’aimerais travailler dans le web ou en tant que
+            Community manager, je me laisse les 3 prochaines années d’études
+            pour me décider sur le sujet
+          </section>
+        </section>
+      </section>
 
-    <div class="container pres projet-container">
-      <ul id="c">
-        <li>
-          <img src="Affiche.png" alt="affiche" />
-          <p>Affiche pour le carnaval de Brando</p>
-        </li>
-        <li>
-          <img src="Pins.png" alt="pins" />
-          <p>Sticker pour le carnaval de Brando</p>
-        </li>
-        <li>
-          <img src="Taxi.png" alt="taxi 2" />
-          <p>Réplique d'affiche du film Taxi 2</p>
-        </li>
-        <li>
-          <img src="Lejourdaprès.png" alt="ljda" />
-          <p>Réplique d'affiche du film Le jour d'après</p>
-        </li>
-        <li>
-          <img src="Butta.jpg" alt="affiche de parfum" />
-          <p>Affiche pour un parfum</p>
-        </li>
-        <li>
-          <img src="Rhino.png" alt="rhino" />
-          <p></p>
-        </li>
-      </ul>
-    </div>
-    <div class="pres">
-      <iframe
-        width="640"
-        height="360"
-        src="https://www.youtube.com/embed/6LYAZw78_d8"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="bas">
-      <div class="pres cadre" id="about">
-        <form>
-          <br />
-          <h3 style="color: white;">Me contacter</h3>
-          <input placeholder="Nom" type="text" id="name" name="user_name" />
-          <input
-            placeholder="Prenom"
-            type="text"
-            id="firstname"
-            name="user_firstname"
-          />
-          <input
-            placeholder="Votre email"
-            type="email"
-            id="mail"
-            name="user_mail"
-          />
-          <input
-            placeholder="Password"
-            type="password"
-            id="password"
-            name="password"
-          />
+      <section class="container pres projet-container">
+        <h1 style="color: white;">Mes créations</h1>
+        <ul id="c">
+          <li>
+            <img src="Affiche.png" alt="affiche" />
+            <p>Affiche pour le carnaval de Brando</p>
+          </li>
+          <li>
+            <img src="Pins.png" alt="pins" />
+            <p>Sticker pour le carnaval de Brando</p>
+          </li>
+          <li>
+            <img src="Taxi.png" alt="taxi 2" />
+            <p>Réplique d'affiche du film Taxi 2</p>
+          </li>
+          <li>
+            <img src="Lejourdaprès.png" alt="ljda" />
+            <p>Réplique d'affiche du film Le jour d'après</p>
+          </li>
+          <li>
+            <img src="Butta.jpg" alt="affiche de parfum" />
+            <p>Affiche pour un parfum</p>
+          </li>
+          <li>
+            <img src="Rhino.png" alt="rhino" />
+            <p></p>
+          </li>
+        </ul>
+      </section>
+      <section class="pres">
+        <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/6LYAZw78_d8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="bas">
+        <section class="pres cadre" id="about">
+          <form>
+            <br />
+            <h3 style="color: white;">Me contacter</h3>
+            <input placeholder="Nom" type="text" id="name" name="user_name" />
+            <input
+              placeholder="Prenom"
+              type="text"
+              id="firstname"
+              name="user_firstname"
+            />
+            <input
+              placeholder="Votre email"
+              type="email"
+              id="mail"
+              name="user_mail"
+            />
+            <textarea
+              cols="80"
+              rows="8"
+              placeholder="Commentaire"
+              id="Commentaire"
+              name="Commentaire"
+            ></textarea>
 
-          <input type="submit" />
-          <br />
-        </form>
-      </div>
-    </div>
+            <input type="submit" />
+            <br />
+          </form>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
